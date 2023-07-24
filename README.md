@@ -35,7 +35,17 @@ Replace `amanastel` with your GitHub username and `your-question-answer-app` wit
 
 3. **Build and Run the Application**: Use Spring Boot to build and run the application on your local environment.
 
+
 4. **Access the Application**: Once the application is running, access it through your web browser or make API calls to interact with it programmatically.
+
+## Chat Feature
+
+To use the chat feature, make an HTTP POST request to the `/chat` endpoint with a JSON payload containing the user's question. For example:
+bash
+curl -X POST -H "Content-Type: application/json" -d '{"message": "Your question here"}' http://localhost:8080/chat
+
+
+
 
 ## Contribution
 
